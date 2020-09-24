@@ -1,0 +1,27 @@
+Advanced Linker 1.3
+
+Beginning execution at 8/6/2008 3:48:33 PM
+
+
+Command line arguments to LINK call:
+------------------------------------------------------------
+"D:\Visual Basic\Visual Studio Projects\Advanced Compiler and Linker\Compiler\Module1.OBJ" "D:\Visual Basic\Visual Studio Projects\Advanced Compiler and Linker\Compiler\CmdOutput.OBJ" "D:\Visual Basic\Visual Studio Projects\Advanced Compiler and Linker\Compiler\Form1.OBJ" "D:\Visual Basic\Visual Studio Projects\Advanced Compiler and Linker\Compiler\C2.OBJ" "C:\Program Files\Microsoft Visual Studio\VB98\VBAEXE6.LIB" /ENTRY:__vbaS /OUT:"D:\Visual Basic\Visual Studio Projects\Advanced Compiler and Linker\Compiler\C2.exe" /BASE:0x400000 /SUBSYSTEM:WINDOWS,4.0 /VERSION:1.0   /INCREMENTAL:NO /OPT:REF /MERGE:.rdata=.text /IGNORE:4078 
+------------------------------------------------------------
+
+Calling LinkLnk.exe (linker):
+
+Linker Output:
+------------------------------------------------------------
+Microsoft (R) Incremental Linker Version 6.00.8447
+Copyright (C) Microsoft Corp 1992-1998. All rights reserved.
+
+
+------------------------------------------------------------
+
+File Type:
+------------------------------------------------------------
+Standard Windows EXE file
+------------------------------------------------------------
+
+
+Returned from linker call at 8/6/2008 3:48:33 PM

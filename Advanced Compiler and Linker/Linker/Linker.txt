@@ -1,0 +1,14 @@
+I found this at http://www.windowsdevcenter.com/pub/a/windows/2005/04/26/create_dll.html?page=1
+go there if you want a more in depth explaination
+
+I simply tweaked it to give you a prompt and some error handling 
+and now added the option for adding/changing options
+with CMDFILE.TXT placed in program directory
+Read AdvCompile.txt for more information on switches
+
+Compile the Linker Helper as Link.exe
+go to your VB98 Directory (usually C:\Program Files\Microsoft Visual Studio\VB98\)
+
+
+rename the original Link.exe to LinkLnk.exe and Copy the link Helper (Link.exe) 
+to the VB98 Directory and make your dll
