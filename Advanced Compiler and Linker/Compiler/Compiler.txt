@@ -1,0 +1,11 @@
+
+a compile helper with the option for Adding/Removing/Changing options
+with COMPFILE.TXT placed in program directory it will also make logs 
+for each file compiled and give the output for the compiler
+Read AdvCompile.txt for more information on switches
+
+Compile the Compile Helper as C2.exe
+go to your VB98 Directory (usually C:\Program Files\Microsoft Visual Studio\VB98\)
+
+rename the original C2.exe to C3.exe and Copy the Compile Helper (C2.exe) 
+to the VB98 Directory and make your programs

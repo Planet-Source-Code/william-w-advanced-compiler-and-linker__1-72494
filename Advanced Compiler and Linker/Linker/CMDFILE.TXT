@@ -1,0 +1,1 @@
+/verbose /version:8 /COMMENT:"ADVANCED LINKER!"

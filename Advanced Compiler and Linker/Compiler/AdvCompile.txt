@@ -1,0 +1,135 @@
+Advanced Compiler Options 
+Add COMPFILE.TXT to your program's directory 
+Use any of the below switches 
+If it is incorrect your program won't compile.
+
+Use COMPFILE.TXT to add or remove commands to the compiler 
+
+*-SAVE (saves all the .OBJ and other intermediate files used 
+to compile your program)
+
+* (in front of a command removes it from the command line)
+
+Separate individual commands with space or tab 
+
+Usage: C2 [Files][Options]  
+
+   Options:
+
+       -basic
+       -Brepro
+       -bzalign
+       -cap
+       -cbstring
+       -dlp
+       -dos
+       -EH{ a | s }
+       -ehopt
+       -f"filename"
+       -Fa
+       -FA{ c | s }
+       -fastcap
+       -Fd"filename"
+       -Fo
+       -G{ 3 | 4 | 5 | 6 | A | D | f | h | i | T | X | y | Z }
+       -Gs#
+       -H#
+       -ide
+       -il"filename"
+       -isize#
+       -MD
+       -MDd
+       -ML
+       -MLd
+       -MT
+       -MTd
+       -Loop#
+       -loopopt
+       -noblend
+       -nodlp
+       -noehopt
+       -nogen
+       -nolock
+       -nowarn4786
+       -nowarn4715
+       -O{ a | g | p | s | t | w | y }
+       -off#
+       -p6gj
+       -QI0f
+       -QIf
+       -QIfdiv
+       -QIfist
+       -QIWMTemu
+       -stkfill#
+       -vol#
+       -W#
+       -Z{ a | d | i | l }
+
+See: http://msdn.microsoft.com/en-us/library/aa236704(VS.60).aspx
+
+
+Content Below: http://www.brainbell.com/tutors/Visual_Basic/Generating_Code.htm
+
+Table 7-1. Command-line flags for the C2 Compiler
+
+Flag Explanation 
+
+-il C:\WINDOWS\TEMP\VB603389 
+Undocumented but also used for C program; probably used to "name" intermediate language files 
+
+-f Form1 
+The input file to be compiled 
+
+-W3 
+Warning level 3 
+
+-Gy 
+Enable function-level linking 
+
+-G5 
+Optimize for Pentium 
+
+-Gs4096 
+Turn off stack probes 
+
+-dos 
+Undocumented but also used for a C program 
+
+-Zl 
+Remove default library name from OBJ file 
+
+-Fo C:\TEMP\Form1.OBJ 
+Name of output file 
+
+-QIfdiv 
+Perform Pentium FDIV erratum fix 
+
+-ML 
+Create a single-threaded executable file 
+
+-basic 
+Undocumented but appears to be a new flag for Visual Basic compilation 
+
+
+Some Msdn stuff: See: http://msdn.microsoft.com/en-us/library/aa236704(VS.60).aspx
+
+/MD 
+Creates a multithreaded DLL, using MSVCRT.LIB 
+
+/MDd 
+Creates a debug multithreaded DLL, using MSVCRTD.LIB 
+
+/ML 
+Creates a single-threaded executable file, using LIBC.LIB 
+
+/MLd 
+Creates a debug single-threaded executable file, using LIBCD.LIB 
+
+/MT 
+Creates a multithreaded executable file, using LIBCMT.LIB 
+
+/MTd 
+Creates a debug multithreaded executable file, using LIBCMTD.LIB 
+
+
+

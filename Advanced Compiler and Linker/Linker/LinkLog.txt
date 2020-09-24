@@ -1,0 +1,57 @@
+Advanced Linker 1.3
+
+Beginning execution at 8/6/2008 3:49:03 PM
+
+
+Command line arguments to LINK call:
+------------------------------------------------------------
+"D:\Visual Basic\Visual Studio Projects\Advanced Compiler and Linker\Linker\Form1.OBJ" "D:\Visual Basic\Visual Studio Projects\Advanced Compiler and Linker\Linker\Module1.OBJ" "D:\Visual Basic\Visual Studio Projects\Advanced Compiler and Linker\Linker\Form2.OBJ" "D:\Visual Basic\Visual Studio Projects\Advanced Compiler and Linker\Linker\CmdOutput.OBJ" "D:\Visual Basic\Visual Studio Projects\Advanced Compiler and Linker\Linker\Link.OBJ" "C:\Program Files\Microsoft Visual Studio\VB98\VBAEXE6.LIB" /ENTRY:__vbaS /OUT:"D:\Visual Basic\Visual Studio Projects\Advanced Compiler and Linker\Linker\Link.exe" /BASE:0x400000 /SUBSYSTEM:WINDOWS,4.0 /VERSION:1.0   /INCREMENTAL:NO /OPT:REF /MERGE:.rdata=.text /IGNORE:4078  @"D:\Visual Basic\Visual Studio Projects\Advanced Compiler and Linker\Linker\CMDFILE.TXT"
+------------------------------------------------------------
+
+CMDFILE.TXT Found, New Options Used:
+------------------------------------------------------------
+ /verbose /version:8 /COMMENT:"ADVANCED LINKER!"
+------------------------------------------------------------
+
+Calling LinkLnk.exe (linker):
+
+Linker Output:
+------------------------------------------------------------
+Microsoft (R) Incremental Linker Version 6.00.8447
+Copyright (C) Microsoft Corp 1992-1998. All rights reserved.
+
+/verbose /version:8 "/COMMENT:ADVANCED LINKER!" 
+
+Start Pass1
+
+Searching Libraries
+    Searching C:\Program Files\Microsoft Visual Studio\VB98\VBAEXE6.LIB:
+      Found __except_list
+        Referenced in Form1.OBJ
+        Referenced in Module1.OBJ
+        Referenced in Form2.OBJ
+        Referenced in CmdOutput.OBJ
+        Loaded VBAEXE6.LIB(natsupp.obj)
+
+Done Searching Libraries
+
+End Pass1
+
+Start Pass2
+     Link.OBJ
+     CmdOutput.OBJ
+     Form2.OBJ
+     Module1.OBJ
+     Form1.OBJ
+     VBAEXE6.LIB(natsupp.obj)
+End Pass2
+
+------------------------------------------------------------
+
+File Type:
+------------------------------------------------------------
+Standard Windows EXE file
+------------------------------------------------------------
+
+
+Returned from linker call at 8/6/2008 3:49:03 PM
